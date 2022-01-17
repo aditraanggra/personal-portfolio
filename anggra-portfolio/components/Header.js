@@ -21,7 +21,7 @@ const Header = () => {
           <ul className='flex flex-row justify-end space-x-8'>
             {Menuitems.map((items, index) => (
               <li
-                className='text-xs font-bold text-white hover:text-[#68D7FF] cursor-pointer'
+                className='text-xs font-bold text-[#eeeeee] hover:text-[#68D7FF] cursor-pointer'
                 key={index}
               >
                 {items}
