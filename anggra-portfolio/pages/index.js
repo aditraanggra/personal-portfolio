@@ -1,11 +1,18 @@
 import Layout from '../components/Layout'
+import Hero from '../components/content/Hero'
+import { IconContext } from 'react-icons'
 
 export default function Home() {
   return (
-    <Layout>
-      <h1 className='font-sans text-3xl font-semibold text-teal-600'>
-        Welcome to NextJS
-      </h1>
-    </Layout>
+    <IconContext.Provider
+      value={{
+        size: '1.5em',
+        color: '#eeeeee',
+      }}
+    >
+      <Layout>
+        <Hero />
+      </Layout>
+    </IconContext.Provider>
   )
 }
