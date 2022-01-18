@@ -9,7 +9,7 @@ const Layout = (props) => {
       <Head>
         <title>Anggra Aditra | UI Designer & Front End Developer</title>
       </Head>
-      <div className='flex flex-col h-full sm:mx-6 md:mx-40'>
+      <div className='flex flex-col h-full mx-4 md:mx-12 lg:mx-40'>
         <Header />
         <main className='flex-1'>{children}</main>
         <Footer />
