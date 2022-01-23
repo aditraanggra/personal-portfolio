@@ -1,5 +1,5 @@
 import Layout from '../components/Layout'
-import Hero from '../components/content/Hero'
+import { Hero, About, Work, GetInTouch } from '../components/content'
 import { IconContext } from 'react-icons'
 
 export default function Home() {
@@ -12,6 +12,9 @@ export default function Home() {
     >
       <Layout>
         <Hero />
+        <About />
+        <Work />
+        <GetInTouch />
       </Layout>
     </IconContext.Provider>
   )

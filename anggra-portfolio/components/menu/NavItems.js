@@ -5,7 +5,7 @@ const NavItems = () => {
     <>
       {Menuitems.map((items, index) => (
         <li
-          className='text-lg md:text-xs font-bold text-[#eeeeee] hover:text-[#68D7FF] cursor-pointer transition duration-500 ease-in-out list-none'
+          className='text-lg md:text-xs font-bold text-[#eeeeee] hover:text-[#68D7FF] hover:-translate-y-2 cursor-pointer transition duration-500 ease-in-out list-none'
           key={index}
         >
           {items}

@@ -1,11 +1,14 @@
 import { useState } from 'react'
+//components
 import DesktopMenu from './DesktopMenu'
 import MobileMenu from './MobileMenu'
-import { Squeeze as Hamburger } from 'hamburger-react'
+// 3rd library
+import { Divide as Hamburger } from 'hamburger-react'
 import { Transition } from '@headlessui/react'
 
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false)
+
   return (
     <div className='flex flex-1 justify-end'>
       <DesktopMenu />
@@ -13,6 +16,8 @@ const Navbar = () => {
         <Hamburger
           direction='right'
           size={32}
+          duration={0.3}
+          rounded
           easing='ease-in-out'
           toggled={isOpen}
           toggle={setOpen}
