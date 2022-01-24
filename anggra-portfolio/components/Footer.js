@@ -3,17 +3,17 @@ import Logo from '../public/BrandLogo.svg'
 
 import {
   AiOutlineDribbble,
-  AiOutlineCodeSandbox,
   AiOutlineLinkedin,
   AiOutlineGithub,
   AiOutlineMedium,
+  AiOutlineYoutube,
 } from 'react-icons/ai'
 
 const Footer = () => {
   return (
     <footer>
       <div className='flex flex-col justify-center items-center space-y-6'>
-        <Image src={Logo} alt='logo' className='cursor-pointer mb-4' />
+        <Image src={Logo} alt='logo' className='cursor-pointer mb-4 -z-10' />
         <p className='font-medium text-sm text-[#68D7FF]'>
           Designed & Developed by Me
         </p>
@@ -28,10 +28,10 @@ const Footer = () => {
             <AiOutlineMedium />
           </li>
           <li>
-            <AiOutlineCodeSandbox />
+            <AiOutlineDribbble />
           </li>
           <li>
-            <AiOutlineDribbble />
+            <AiOutlineYoutube />
           </li>
         </ul>
       </div>

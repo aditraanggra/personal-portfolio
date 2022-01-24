@@ -8,10 +8,16 @@ const Layout = (props) => {
     <>
       <Head>
         <title>Anggra Aditra | UI Designer & Front End Developer</title>
+        <meta charSet='utf-8' />
+        <meta name='viewport' content='initial-scale=1.0, width=device-width' />
+        <meta
+          name='description'
+          content='Personal UI Designer & Front End Developer Website'
+        />
       </Head>
       <div className='flex flex-col h-full mx-4 sm:mx-10 md:mx-12 lg:mx-40'>
         <Header />
-        <main className='flex-1'>{children}</main>
+        <main className='flex-1 space-y-20 md:space-y-40'>{children}</main>
         <Footer />
       </div>
     </>
