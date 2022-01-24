@@ -37,7 +37,20 @@ const Footer = () => {
       </div>
       <div className='py-12'>
         <p className='text-center text-sm text-[#eeeeee] font-normal'>
-          Build with &#128154; using NextJS
+          Build with &#128154; using{' '}
+          <a
+            href='https://nextjs.org/'
+            className='text-[#68D7FF] decoration-solid decoration-[#68D7FF]'
+          >
+            Next.js
+          </a>{' '}
+          &{' '}
+          <a
+            href='https://vercel.com/'
+            className='text-[#68D7FF] decoration-solid decoration-[#68D7FF]'
+          >
+            Vercel
+          </a>
         </p>
       </div>
     </footer>

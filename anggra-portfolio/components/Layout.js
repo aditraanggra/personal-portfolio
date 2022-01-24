@@ -14,6 +14,7 @@ const Layout = (props) => {
           name='description'
           content='Personal UI Designer & Front End Developer Website'
         />
+        <link rel='shortcut icon' href='/public/favicon.png' />
       </Head>
       <div className='flex flex-col h-full mx-4 sm:mx-10 md:mx-12 lg:mx-40'>
         <Header />
