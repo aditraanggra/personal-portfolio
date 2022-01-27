@@ -1,25 +1,33 @@
+import { useContext } from 'react'
 import { Link } from 'react-scroll'
+import Context from '../../context/Context'
+import { motion } from 'framer-motion'
 
 const Menuitems = ['ABOUT ME', 'LATEST WORK', 'CONTACT']
 
+const { NavContext } = Context
+
+const variants = {}
+
 const NavItems = () => {
+  const props = useContext(NavContext)
+
   return (
     <>
       {Menuitems.map((items, index) => (
-        <li
-          className='text-lg md:text-xs font-bold text-[#eeeeee] hover:text-[#68D7FF] hover:-translate-y-2 cursor-pointer transition duration-500 ease-in-out list-none'
+        <Link
+          to={`${items.split(' ').join('-').toLocaleLowerCase()}`}
+          spy
+          smooth
+          duration={750}
+          offset={-70}
           key={index}
+          onClick={props.HandleClosed}
         >
-          <Link
-            to={`${items.split(' ').join('-').toLocaleLowerCase()}`}
-            spy
-            smooth
-            duration={750}
-            offset={-70}
-          >
+          <li className='text-lg md:text-xs font-bold text-[#eeeeee] hover:text-[#68D7FF] hover:-translate-y-2 cursor-pointer transition duration-500 ease-in-out list-none'>
             {items}
-          </Link>
-        </li>
+          </li>
+        </Link>
       ))}
     </>
   )

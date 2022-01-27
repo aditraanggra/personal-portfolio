@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Logo from '../public/BrandLogo.svg'
-
+//Icons
 import {
   AiOutlineDribbble,
   AiOutlineLinkedin,
@@ -14,9 +14,6 @@ const Footer = () => {
     <footer>
       <div className='flex flex-col justify-center items-center space-y-6'>
         <Image src={Logo} alt='logo' className='cursor-pointer mb-4 -z-10' />
-        <p className='font-medium text-sm text-[#68D7FF]'>
-          Designed & Developed by Me
-        </p>
         <ul className='flex flex-row space-x-6'>
           <li>
             <AiOutlineGithub />
