@@ -1,12 +1,10 @@
-import { Link } from 'react-scroll'
-
-const NiceButton = (props) => {
+const NiceButton = ({ children, ...props }) => {
   return (
     <button
       {...props}
-      className='flex flex-row justify-center items-center h-12 py-[18px] px-8 border-2 rounded-full  border-[#68D7FF] text-[#68D7FF] hover:shadow-lg hover:shadow-[#68d7ff52] font-semibold text-xs uppercase hover:-translate-y-2 transition duration-500 ease-in-out'
+      className='flex flex-row justify-center items-center h-12 py-[18px] px-8 border-2 rounded-full  border-[#00CDAC] text-[#00CDAC] hover:shadow-lg hover:shadow-[#00CDAC52] font-semibold text-xs uppercase hover:-translate-y-2 transition duration-500 ease-in-out'
     >
-      {props.children}
+      {children}
     </button>
   )
 }

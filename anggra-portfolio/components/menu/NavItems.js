@@ -24,7 +24,7 @@ const NavItems = () => {
           key={index}
           onClick={props.HandleClosed}
         >
-          <li className='text-lg md:text-xs font-bold text-[#eeeeee] hover:text-[#68D7FF] hover:-translate-y-2 cursor-pointer transition duration-500 ease-in-out list-none'>
+          <li className='text-lg md:text-xs font-bold text-[#00CDAC] hover:text-[#02AAB0] hover:-translate-y-2 cursor-pointer transition duration-500 ease-in-out list-none'>
             {items}
           </li>
         </Link>

@@ -1,13 +1,5 @@
-/**
- * Add logo (svg) --Done
- * Make responsive Hamburger menu
- * Add Dark Mode Button
- * Using Array to render Menu Navigation --Done
- *
- *
- */
 import Image from 'next/image'
-import Logo from '../public/BrandLogo.svg'
+import Logo from '../public/Logo_48.svg'
 import Navbar from './menu/Navbar'
 
 const Header = () => {

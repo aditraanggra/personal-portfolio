@@ -7,7 +7,7 @@ const Work = () => {
   return (
     <Element name='latest-work'>
       <section>
-        <h3 className='text-center md:text-left font-semibold text-xl text-[#5FCEFD] mb-10'>
+        <h3 className='text-center md:text-left font-semibold text-xl text-[#00CDAC] mb-10'>
           Latest Project
         </h3>
         <div className='flex flex-col space-y-12'>
@@ -20,7 +20,7 @@ const Work = () => {
               height={300}
             />
             <div className='flex flex-col flex-1 p-8 px-4 sm:px-6 md:px-8 md:py-2 space-y-2 '>
-              <h4 className='text-[#5FCEFD] font-medium'>My Portfolio Title</h4>
+              <h4 className='text-[#00CDAC] font-medium'>My Portfolio Title</h4>
               <p className='text-[#eee]'>
                 this is the website you are watching, first, I designed this
                 website in Figma, and when this website is live, I want my
@@ -45,7 +45,7 @@ const Work = () => {
               height={300}
             />
             <div className='flex flex-col flex-1 p-8 px-4 sm:px-6 md:px-8 md:py-2 space-y-2 '>
-              <h4 className='text-[#5FCEFD] font-medium'>My Portfolio Title</h4>
+              <h4 className='text-[#00CDAC] font-medium'>My Portfolio Title</h4>
               <p className='text-[#eee]'>
                 this is the website you are watching, first, I designed this
                 website in Figma, and when this website is live, I want my
@@ -71,7 +71,7 @@ const Work = () => {
               height={300}
             />
             <div className='flex flex-col flex-1 p-8 px-4 sm:px-6 md:px-8 md:py-2 space-y-2 '>
-              <h4 className='text-[#5FCEFD] font-medium'>My Portfolio Title</h4>
+              <h4 className='text-[#00CDAC] font-medium'>My Portfolio Title</h4>
               <p className='text-[#eee]'>
                 this is the website you are watching, first, I designed this
                 website in Figma, and when this website is live, I want my

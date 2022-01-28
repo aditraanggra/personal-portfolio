@@ -2,14 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  scroll-behavior: smooth;
-  scroll-margin: 20px;
-}
+/* rest of app styles */
 
+html,
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #1a3a57;
+  background-color: #0d2840;
   height: 100%;
 }
 

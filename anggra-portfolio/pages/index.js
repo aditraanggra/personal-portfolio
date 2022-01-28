@@ -5,7 +5,7 @@ import Context from '../context/Context'
 
 const IconStyles = {
   size: '1.5em',
-  color: '#eeeeee',
+  color: '#00CDAC',
 }
 
 const { NavProvider } = Context

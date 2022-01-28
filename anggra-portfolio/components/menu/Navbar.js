@@ -26,7 +26,7 @@ const Navbar = () => {
             easing='ease-in-out'
             toggled={props.isOpen}
             toggle={props.setOpen}
-            color='#eee'
+            color='#00CDAC'
             label='show menu'
           />
         </div>

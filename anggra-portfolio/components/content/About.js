@@ -14,7 +14,7 @@ const About = () => {
   return (
     <Element name='about-me'>
       <section>
-        <h3 className='text-center md:text-left font-semibold text-xl text-[#5FCEFD]'>
+        <h3 className='text-center md:text-left font-semibold text-xl text-[#00CDAC]'>
           About Me
         </h3>
         <div className='flex flex-col-reverse md:flex-row justify-center items-center py-8'>
