@@ -1,13 +1,10 @@
 import { useContext } from 'react'
 import { Link } from 'react-scroll'
 import Context from '../../context/Context'
-import { motion } from 'framer-motion'
 
 const Menuitems = ['ABOUT ME', 'LATEST WORK', 'CONTACT']
 
 const { NavContext } = Context
-
-const variants = {}
 
 const NavItems = () => {
   const props = useContext(NavContext)
